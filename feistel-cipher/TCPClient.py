@@ -9,7 +9,7 @@ clientSocket.connect((serverName,serverPort))
 
 #Recebe mensagem do usuario e envia ao servidor
 message = input('Digite uma frase: ')
-clientSocket.send(message.encode('ascii'))
+clientSocket.send(message.encode("ascii"))
 
 #Aguarda mensagem de retorno e a imprime
 modifiedMessage, addr = clientSocket.recvfrom(2048)

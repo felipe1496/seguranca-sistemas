@@ -18,6 +18,6 @@ while 1:
     sentence = connectionSocket.recv(1024)
     encrypted = cipher.encrypt(sentence.decode("ascii"))
     decrypted = cipher.decrypt(encrypted)
-    response = "\n" + "criptografado: " + encrypted + "\n" + "descriptografado: " + decrypted
+    response = "\n" + "- criptografado: " + encrypted + "\n" + "- decriptografado: " + decrypted
     connectionSocket.send(bytes(response.encode("utf-8")))
     connectionSocket.close()

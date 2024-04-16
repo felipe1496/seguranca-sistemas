@@ -1,1 +1,1 @@
-V	340410005745Z		1000	unknown	/C=BR/ST=Paraiba/O=UFCG/OU=UFCG Intermediate/CN=UFCG Intermediate CA
+V	340413232006Z		1000	unknown	/C=BR/ST=Paraiba/O=UFCG/OU=UFCG Intermediate/CN=www.ufcg.com/emailAddress=ufcg@ufcg.com
